@@ -33,7 +33,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "tiles/homeTest/homeTest";
+		return "tiles/matr/rwmatr";
 	}
 	
 }

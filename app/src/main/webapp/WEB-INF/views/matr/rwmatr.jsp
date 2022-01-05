@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>그리드 테스트</h1>
+	<h1>원자재</h1>
 	<div>
 		검색창:<input type="text" id="departmentId" name="departmentId"><button type="button" onclick="select()">검색</button>
 	</div>
@@ -62,6 +62,10 @@
 	        {
 	          header: '안전재고',
 	          name: 'safStc'
+	        },
+	        {
+	          header: '업체코드',
+	          name: 'vendId'
 	        }
 	      ]
 	    });

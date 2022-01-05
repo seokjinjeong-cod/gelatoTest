@@ -10,4 +10,5 @@ public class Rwmatr {
 	String spec;
 	String wkUnit;
 	String safStc;
+	String vendId;
 }
